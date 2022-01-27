@@ -26,6 +26,7 @@ body {
 }
 #home h1 {
     font-family: 'Permanent Marker', cursive;
+    font-size: 500;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     animation: fadein 2s;
 }
