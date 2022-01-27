@@ -30,7 +30,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
       }
-      else if( scrollTop > 100 && scrollTop < 700 ){
+      else if( scrollTop > 100 && scrollTop < 600 ){
         $('#home').fadeOut();
         $('#block-01').fadeIn();    // Block 1 In
         $('#block-02').fadeOut();
@@ -52,7 +52,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
       }
-      else if( scrollTop > 700 && scrollTop < 1500 ) {
+      else if( scrollTop > 600 && scrollTop < 1000 ) {
         $('#home').fadeOut();
         $('#block-01').fadeOut();
         $('#block-02').fadeIn();    // Block 2 In
@@ -74,7 +74,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
         } 
-      else if( scrollTop > 1500 && scrollTop < 2000 ) {
+      else if( scrollTop > 1000 && scrollTop < 1500 ) {
         $('#home').fadeOut();
         $('#block-01').fadeOut();
         $('#block-02').fadeOut();
@@ -96,7 +96,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
       }
-      else if( scrollTop > 2000 && scrollTop < 2500 ) {
+      else if( scrollTop > 1500 && scrollTop < 2100 ) {
         $('#home').fadeOut();
         $('#block-01').fadeOut();
         $('#block-02').fadeOut();
@@ -118,7 +118,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
       }
-      else if( scrollTop > 2500 && scrollTop < 3000 ) {
+      else if( scrollTop > 2100 && scrollTop < 2800 ) {
         $('#home').fadeOut();
         $('#block-01').fadeOut();
         $('#block-02').fadeOut();
@@ -140,7 +140,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
       }
-      else if( scrollTop > 3000 && scrollTop < 3500 ) {
+      else if( scrollTop > 2800 && scrollTop < 3500 ) {
         $('#home').fadeOut();
         $('#block-01').fadeOut();
         $('#block-02').fadeOut();
