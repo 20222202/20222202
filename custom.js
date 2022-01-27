@@ -8,7 +8,7 @@ $(window).scroll(function (){
     var scrollTop = $(this).scrollTop();
     
     $('.default-block').hide();
-      if ( scrollTop > 0 && scrollTop < 200 ){
+      if ( scrollTop > 0 && scrollTop < 100 ){
         $('#home').fadeIn();       // Home In
         $('#block-01').fadeOut();
         $('#block-02').fadeOut();
@@ -30,7 +30,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
       }
-      else if( scrollTop > 200 && scrollTop < 1000 ){
+      else if( scrollTop > 100 && scrollTop < 700 ){
         $('#home').fadeOut();
         $('#block-01').fadeIn();    // Block 1 In
         $('#block-02').fadeOut();
@@ -52,7 +52,7 @@ $(window).scroll(function (){
         $('#block-18').fadeOut();
         $('#block-19').fadeOut();
       }
-      else if( scrollTop > 1000 && scrollTop < 1500 ) {
+      else if( scrollTop > 700 && scrollTop < 1500 ) {
         $('#home').fadeOut();
         $('#block-01').fadeOut();
         $('#block-02').fadeIn();    // Block 2 In
