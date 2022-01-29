@@ -18,6 +18,10 @@ while (her_name !== "jasmine" || her_name !== "jas" || her_name !== "jasmine g" 
   her_name = text.toLowerCase();
 }
 
+$(window).on('load', function () {
+  $('#loading').fadeOut();
+}) 
+
 $('#home').fadeIn();
 
 $(window).scroll(function (){
