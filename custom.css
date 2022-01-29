@@ -81,3 +81,8 @@ a{
 #loading {
     display: block;
 }
+
+#jasmine {
+    max-width: 400;
+    height: auto;
+}
