@@ -19,7 +19,7 @@ while (her_name !== "jasmine" || her_name !== "jas" || her_name !== "jasmine g" 
 }
 
 $(window).on('load', function () {
-  $('#loading').fadeOut();
+  $('#loading').fadeOut(500);
 }) 
 
 setTimeout(function (){
