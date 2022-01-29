@@ -24,7 +24,7 @@ $(window).on('load', function () {
 
 setTimeout(function (){
   $('#home').fadeIn();
-}, 1500);
+}, 2000);
 
 $(window).scroll(function (){
     var scrollTop = $(this).scrollTop();
