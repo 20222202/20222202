@@ -2,13 +2,21 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
-// var name = "";
-// let text = prompt("Hello.. What's your name?", "a");
-// name = text.toLowerCase();
-// while (name != "jasmine" || name != "jas" || name != "jasmine g" || name != "jasmine gouwandi"){
-//   text = prompt("Sadly this website is not for you. Type in again.")
-  
-// }
+let text;
+let her_name;
+
+text = prompt("Hello.. Type in your name, please.");
+if (text === null) { window.close(); }
+her_name = text.toLowerCase();
+
+while (her_name !== "jasmine" || her_name !== "jas" || her_name !== "jasmine g" || her_name !== "jasmine gouwandi"){
+  if (her_name === "jasmine" || her_name === "jas" || her_name === "jasmine g" || her_name === "jasmine gouwandi"){
+    break;
+  }
+  text = prompt("Sadly this website is not for you. Type in again.");
+  if (text === null) { window.close(); }
+  her_name = text.toLowerCase();
+}
 
 $('#home').fadeIn();
 
