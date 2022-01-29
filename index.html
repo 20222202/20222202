@@ -20,9 +20,9 @@
     </head>
     <body>
         <div class="container well h-2000">
-            <div class="scroll-element" id="loading">
+            <!-- <div class="scroll-element" id="loading">
                 <img src="img/Infinity-1s-200px.gif" alt="Loading..." width="100">
-            </div>
+            </div> -->
             <div class="scroll-element" id="home">
                 <img src="img/pics.png" width="400">
                 <h1> Happy Birthday Jas!! </h1>
@@ -111,12 +111,7 @@
         her_name = text.toLowerCase();
         }
 
-        $(window).on('load', function () {
-        $('#loading').fadeOut(500);
-        }) 
-
-        setTimeout(function (){
         $('#home').fadeIn();
-        }, 2000);
+
     </script>
 </html>
