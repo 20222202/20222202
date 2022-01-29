@@ -22,7 +22,9 @@ $(window).on('load', function () {
   $('#loading').fadeOut();
 }) 
 
-$('#home').fadeIn();
+setTimeout(function (){
+  $('#home').fadeIn();
+}, 1500);
 
 $(window).scroll(function (){
     var scrollTop = $(this).scrollTop();
