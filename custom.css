@@ -17,9 +17,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#home {
+/* #home {
     display: inline;
-}
+} */
 #home img {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     animation: fadein 2s;
