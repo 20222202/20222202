@@ -21,6 +21,8 @@ body {
     display: inline;
 } */
 #home img {
+    max-width: 400px;
+    height: auto;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     animation: fadein 2s;
 }
@@ -80,9 +82,4 @@ a{
 
 #loading {
     display: block;
-}
-
-#jasmine {
-    max-width: 400;
-    height: auto;
 }
