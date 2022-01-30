@@ -17,16 +17,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* #home {
-    display: inline;
-} */
-#home img {
+#jasmine {
     max-width: 400px;
     height: auto;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     animation: fadein 2s;
 }
-#home #hbd {
+#hbd {
     font-family: 'Permanent Marker', cursive;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     animation: fadein 2s;
