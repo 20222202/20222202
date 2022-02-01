@@ -18,7 +18,7 @@ body {
 }
 
 #jasmine {
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     animation: fadein 2s;
