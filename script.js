@@ -535,26 +535,3 @@ $(window).scroll(function (){
         $('#block-21').fadeIn();    // Block 21 In
       }
 });
-
-// $('#home').fadeOut();
-// $('#block-01').fadeOut();
-// $('#block-02').fadeOut();
-// $('#block-03').fadeOut();
-// $('#block-04').fadeOut();
-// $('#block-05').fadeOut();
-// $('#block-06').fadeOut();
-// $('#block-07').fadeOut();
-// $('#block-08').fadeOut();
-// $('#block-09').fadeOut();
-// $('#block-10').fadeOut();
-// $('#block-11').fadeOut();
-// $('#block-12').fadeOut();
-// $('#block-13').fadeOut();
-// $('#block-14').fadeOut();
-// $('#block-15').fadeOut();
-// $('#block-16').fadeOut();
-// $('#block-17').fadeOut();
-// $('#block-18').fadeOut();
-// $('#block-19').fadeOut();
-// $('#block-20').fadeOut();
-// $('#block-21').fadeOut();
