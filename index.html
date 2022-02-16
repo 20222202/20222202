@@ -112,9 +112,9 @@
         her_name = text.toLowerCase();
 
         while (her_name !== "jas" || her_name !== "jasmine" || her_name !== "jasmine g" || her_name !== "jasmine gouw" || her_name !== "jasmine gouwandi"){
-            if (her_name !== "jas" || her_name !== "jasmine" || her_name !== "jasmine g" || her_name !== "jasmine gouw" || her_name !== "jasmine gouwandi"){
+            if (her_name === "jas" || her_name === "jasmine" || her_name === "jasmine g" || her_name === "jasmine gouw" || her_name === "jasmine gouwandi"){
                 break;
-            }
+            }   
             text = prompt("Sadly this website is not for you. Type in again.");
             if (text === null) { window.close(); }
             her_name = text.toLowerCase();
