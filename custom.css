@@ -52,6 +52,10 @@ body {
     font-size: 250%; 
     font-weight: 700;
 }
+#fyi-5 {
+    font-size: 80%;
+    font-style: italic;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
